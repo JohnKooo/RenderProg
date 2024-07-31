@@ -1,0 +1,109 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using Microsoft.EntityFrameworkCore
+@using System.ComponentModel.DataAnnotations;
+
+<PageTitle>Phone Case</PageTitle>
+
+<EditForm Model="newPhone" OnValidSubmit="AddPhone" >
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="brand" class="form-label">Brand</label> 
+        <InputText id="brand" class="form-control" @bind-Value="newPhone.Brand" />
+        <ValidationMessage For="@(() => newPhone.Brand)" />
+    </div>
+    <div>
+        <label for="model" class="form-label">Model</label>
+        <InputText id="model" class="form-control" @bind-Value="newPhone.Model" />
+        <ValidationMessage For="@(() => newPhone.Model)" />
+    </div>
+    <div>
+        <label for="material" class="form-label">Material</label>
+        <InputText id="material" @bind-Value="newPhone.Material" />
+        <ValidationMessage For="@(() => newPhone.Material)" />
+    </div>
+    <div>
+        <label for="maxCostAmount" class="form-label">Max Cost Amount</label> 
+        <InputNumber id="maxCostAmount" class="form-control" @bind-Value="newPhone.MaxCostAmount" />
+        <ValidationMessage For="@(() => newPhone.MaxCostAmount)" />
+    </div>
+    <div>
+        <label for="trimColor" class="form-label">Trim Color</label>
+        <InputText id="trimColor" class="form-control" @bind-Value="newPhone.TrimColor" />
+        <ValidationMessage For="@(() => newPhone.TrimColor)" />
+    </div>
+    <div>
+        <label for="accentColor" class="form-label">Accent Color</label>
+        <InputText id="accentColor" @bind-Value="newPhone.AccentColor" />
+        <ValidationMessage For="@(() => newPhone.AccentColor)" />
+    </div>
+
+    <button type="submit" >Add</button>
+
+</EditForm>
+
+<ul>
+    @foreach (var phone in phones)
+    {
+        <li>Brand: @phone.Brand</li>
+        <li>Model: @phone.Model</li>
+        <li>Material: @phone.Material</li>
+        <li>MaxCostAmount: @phone.MaxCostAmount</li>
+        <li>TrimColor: @phone.TrimColor</li>
+        <li>AccentColor: @phone.AccentColor</li>
+    }
+</ul>
+
+
+
+@code{
+
+    
+    public class Phone{
+        private const int totalPhoneCost = 850;
+        private string totalCostErrorString = $"Cost must be atleast 1$ and no greater {totalPhoneCost} than 500$!";
+
+        [Required(ErrorMessage="Brand required!")]
+        [StringLength(25, ErrorMessage="Brand length too long!")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Brand must contain only alphabets")]
+        [BrandsAllowed(new string[] {"Apple", "Samsung", "Razer", "TheAlmightyMotorola"})]
+        public string Brand {get;set;}
+
+        [Required(ErrorMessage ="Model required!")]
+        [StringLength(25, ErrorMessage="Model length too long!")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Model must contain only alphabets")]
+        public string Model {get;set;}
+
+        [Required(ErrorMessage="Material required!")]
+        [StringLength(30, ErrorMessage="Material length too long!")]
+        [RegularExpression(@"^[a-zA-Z { }]+$", ErrorMessage = "Material must contain only alphabets")]
+        [MaterialsAllowed(new string[] {"Carbon Fiber", "Metal", "Titanium", "Plastic", "Sheet Metal", "Clam Shell", "Faux Animal Fur", "Apples"})]
+        public string Material {get;set;}
+
+        [Required(ErrorMessage="Max cost required!")]
+        [Range(1,totalPhoneCost, ErrorMessage = "Cost must be atleast 1$ and no greater than 850$!")]
+        public float MaxCostAmount {get;set;}
+
+        [Required(ErrorMessage="Trim color required!")]
+        [StringLength(30, ErrorMessage="Trim Color length too long!")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Trim color must contain only alphabets")]
+        public string TrimColor {get;set;}
+
+        [Required(ErrorMessage="Accent color required!")]
+        [StringLength(30, ErrorMessage="Accent color length too long!")]
+        [RegularExpression(@"^[a-zA-Z]+$", ErrorMessage = "Accent color must contain only alphabets")]
+        [AccentColorsAllowed(new string[] {"Blue", "Pink", "Yellow", "Green", "Greener", "Yellowish", "Blueberry"} )]
+        public string AccentColor {get;set;}
+    }
+
+    public Phone newPhone = new Phone();
+    public List<Phone> phones = new List<Phone>();
+
+    public void AddPhone()
+    {
+        phones.Add(newPhone);
+        newPhone = new Phone();
+    }
+}
