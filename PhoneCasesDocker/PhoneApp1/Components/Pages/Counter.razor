@@ -1,19 +1,53 @@
-﻿@page "/counter"
+﻿@page "/livechat"
 @rendermode InteractiveServer
+@using Microsoft.EntityFrameworkCore
+@using System.ComponentModel.DataAnnotations;
 
-<PageTitle>Counter</PageTitle>
+<PageTitle>Phone Case</PageTitle>
 
-<h1>Counter</h1>
+<EditForm Model="newPhone" OnValidSubmit="AddPhone" >
+    <DataAnnotationsValidator />
+    <ValidationSummary />
 
-<p role="status">Current count: @currentCount</p>
+    <div>
+        <label for="name" class="form-label">Name</label> 
+        <InputText id="name" class="form-control" @bind-Value="newPhone.Name" />
+        <ValidationMessage For="@(() => newPhone.Name)" />
+    </div>
+    <div>
+        <label for="model" class="form-label">Message</label>
+        <InputText id="model" class="form-control" @bind-Value="newPhone.Message" />
+        <ValidationMessage For="@(() => newPhone.Message)" />
+    </div>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+    <button type="submit" >Message</button>
 
-@code {
-    private int currentCount = 0;
+</EditForm>
 
-    private void IncrementCount()
+<ul>
+    @foreach (var phone in phones)
     {
-        currentCount++;
+        <li>Brand: @phone.Name</li>
+        <li>Model: @phone.Message</li>
+    }
+</ul>
+
+
+
+@code{
+
+    
+    public class User{
+        public string Name {get; set;}
+        public string Message {get;set;}
+    }
+
+    public User newPhone = new User();
+    public List<User> phones = new List<User>();
+
+    public void AddPhone()
+    {
+        phones.Add(newPhone);
+        newPhone = new User();
     }
 }
