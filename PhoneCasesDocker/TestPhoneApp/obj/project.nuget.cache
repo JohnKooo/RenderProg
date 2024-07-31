@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7/WtPZIs7L0=",
+  "dgSpecHash": "g0AB6wHLbjg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\wasan\\OneDrive\\Desktop\\AdvancedNet\\PhoneCasesDocker\\TestPhoneApp\\TestPhoneApp.csproj",
+  "projectFilePath": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\TestPhoneApp\\TestPhoneApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wasan\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
     "C:\\Users\\wasan\\.nuget\\packages\\anglesharp.css\\1.0.0-beta.139\\anglesharp.css.1.0.0-beta.139.nupkg.sha512",

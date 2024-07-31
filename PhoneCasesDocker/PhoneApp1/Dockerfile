@@ -7,7 +7,7 @@ COPY ["PhoneApp1.csproj", "./"]
 RUN dotnet restore "./PhoneApp1.csproj"
 
 #Copy the rest of the application source code and build the application
-COPY . .
+COPY . ./
 RUN dotnet publish "PhoneApp1.csproj" -c Release -o /app/publish
 
 #Use the official .NET runtime image to run the application

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wasan\\OneDrive\\Desktop\\AdvancedNet\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj": {}
+    "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wasan\\OneDrive\\Desktop\\AdvancedNet\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj": {
+    "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasan\\OneDrive\\Desktop\\AdvancedNet\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj",
+        "projectUniqueName": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj",
         "projectName": "PhoneApp2",
-        "projectPath": "C:\\Users\\wasan\\OneDrive\\Desktop\\AdvancedNet\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj",
+        "projectPath": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\PhoneApp2.csproj",
         "packagesPath": "C:\\Users\\wasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasan\\OneDrive\\Desktop\\AdvancedNet\\PhoneCasesDocker\\PhoneApp1\\obj\\",
+        "outputPath": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasan\\AppData\\Roaming\\NuGet\\NuGet.Config",

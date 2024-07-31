@@ -269,3 +269,13 @@ c:\Users\wasan\OneDrive\Desktop\AdvancedNet\PhoneCasesDocker\TestPhoneApp\obj\De
 c:\Users\wasan\OneDrive\Desktop\AdvancedNet\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.dll
 c:\Users\wasan\OneDrive\Desktop\AdvancedNet\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\refint\TestPhoneApp.dll
 c:\Users\wasan\OneDrive\Desktop\AdvancedNet\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.pdb
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\bin\Debug\net8.0\CoverletSourceRootsMapping_TestPhoneApp
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.csproj.AssemblyReference.cache
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.AssemblyInfoInputs.cache
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.AssemblyInfo.cs
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.csproj.CoreCompileInputs.cache
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.sourcelink.json
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.dll
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\refint\TestPhoneApp.dll
+c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\TestPhoneApp\obj\Debug\net8.0\TestPhoneApp.pdb
