@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KuZKt3YSVggqbUIWQjCZ/K0Ygyvhy1HxhhwKl8OntkI=",
+  "Hash": "ruDNPBoEwzQLEIUyYSrWZtFEdwK5LR+JWYX+oLBmdRk=",
   "Source": "PhoneApp2",
   "BasePath": "_content/PhoneApp2",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PhoneApp2\\wwwroot",
       "Source": "PhoneApp2",
-      "ContentRoot": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
       "BasePath": "_content/PhoneApp2",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhoneApp2.styles.css",
+      "Identity": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhoneApp2.styles.css",
       "SourceId": "PhoneApp2",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PhoneApp2",
       "RelativePath": "PhoneApp2.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhoneApp2.styles.css"
+      "OriginalItemSpec": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\bundle\\PhoneApp2.styles.css"
     },
     {
-      "Identity": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhoneApp2.bundle.scp.css",
+      "Identity": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhoneApp2.bundle.scp.css",
       "SourceId": "PhoneApp2",
       "SourceType": "Computed",
-      "ContentRoot": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PhoneApp2",
       "RelativePath": "PhoneApp2.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhoneApp2.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PhoneApp2.bundle.scp.css"
     },
     {
-      "Identity": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\app.css",
       "SourceId": "PhoneApp2",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
       "BasePath": "_content/PhoneApp2",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "PhoneApp2",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
       "BasePath": "_content/PhoneApp2",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "PhoneApp2",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
       "BasePath": "_content/PhoneApp2",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\favicon.png",
       "SourceId": "PhoneApp2",
       "SourceType": "Discovered",
-      "ContentRoot": "c:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\PhoneCasesDocker\\PhoneApp1\\wwwroot\\",
       "BasePath": "_content/PhoneApp2",
       "RelativePath": "favicon.png",
       "AssetKind": "All",

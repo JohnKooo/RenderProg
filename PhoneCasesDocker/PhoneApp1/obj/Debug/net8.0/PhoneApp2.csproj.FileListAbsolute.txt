@@ -419,3 +419,16 @@ c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\o
 c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\obj\Debug\net8.0\PhoneApp2.pdb
 c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\obj\Debug\net8.0\PhoneApp2.genruntimeconfig.cache
 c:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\obj\Debug\net8.0\ref\PhoneApp2.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Connections.Common.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Client.Core.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Common.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\wasan\OneDrive\Documents\GitHub\RenderProg\PhoneCasesDocker\PhoneApp1\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
