@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wasan\\OneDrive\\Desktop\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj": {}
+    "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wasan\\OneDrive\\Desktop\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj": {
+    "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasan\\OneDrive\\Desktop\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj",
+        "projectUniqueName": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj",
         "projectName": "BlazorServerCorr",
-        "projectPath": "C:\\Users\\wasan\\OneDrive\\Desktop\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj",
+        "projectPath": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\NewRenderProg\\BlazorServerCorr\\BlazorServerCorr.csproj",
         "packagesPath": "C:\\Users\\wasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasan\\OneDrive\\Desktop\\NewRenderProg\\BlazorServerCorr\\obj\\",
+        "outputPath": "C:\\Users\\wasan\\OneDrive\\Documents\\GitHub\\RenderProg\\NewRenderProg\\BlazorServerCorr\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
